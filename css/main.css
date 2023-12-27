@@ -1,0 +1,182 @@
+:root{
+    --bgcolor:#17202C;
+    --pink:#c3317d;
+}
+
+body{
+    font-family: 'Roboto',sans-serif;
+    background-color: #17202C!important;
+    color: #fff !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+header{
+
+}
+.newclass div{
+    font-size: 15px;
+    padding: 5px;
+}
+.w-imp{
+    min-width: 60%;
+}
+.background-image-sec{
+    background-image: url('/image/bg-image.jpg');
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+}
+.divider-separator {
+    width: 100px;
+    margin-top: 30px;
+    margin-left: 0;
+    border-top: 13px solid #fff;
+
+}
+.main-tit{
+    line-height: 1.1em;
+    font-size: 7rem;
+    font-family: 'Noto Sans',sans-serif;
+    vertical-align: baseline;
+    font-weight: 700;
+}
+.fa-quote-left{
+    font-size: 7rem;
+    color: var(--pink);
+}
+.itemsmainj{
+    align-items: end;
+    width: 230px;
+    font-size: 1.1333333333333rem;
+    line-height: 1.2em;
+    font-family: 'Noto Sans',sans-serif;
+
+}
+.itemsmainj img{
+    opacity: 0.5;
+    margin-top: -10px;
+}
+.textitem{
+    margin-top: -30px;
+    font-weight: 700;
+    text-align: end;
+
+}
+.sign-name{
+    font-size: 0.9rem !important;
+}
+.gap-imp{
+    gap: 6rem;
+}
+.h-imp{
+    height: 70%;
+}
+
+
+
+.main-con{
+    margin-top: -220px;
+}
+.rl-border{
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+.mtb-border{
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+.mt-border{
+    border-top: 1px solid #fff;
+}
+.mb-border{
+    border-bottom: 1px solid #fff;
+}
+
+
+
+
+
+  .firstcardinfo{
+margin-top: -7px;
+font-size: 0.86666666666667rem;
+    line-height: 1.25em;
+    font-family: 'Noto Sans',sans-serif;
+    color: var(--pink);
+    font-weight: 800;
+    width: 15.8%;
+    
+}
+  .firstcardinfo span{
+color: #fff;
+margin-top: 7px;
+font-size: 1.1333333333333rem;
+
+}
+.card-back {
+    width: 28.1%;
+    padding: 40px;
+    background-image: linear-gradient(190deg, #1E2A397A 0%, var(--bgcolor, #ffffff) 40%);
+    position: relative;
+    overflow: hidden;
+}
+
+.card-back:hover {
+    background-image: linear-gradient(190deg, var(--pink) 0%, var(--pink) 40%);
+}
+
+.card-back::after {
+    content: var(--background-overlay, '');
+    position: absolute;
+    top: 20px;
+    left: -8px;
+    width: 100%;
+    height: 100%;
+    background-image: url(/image/backcard.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    z-index: 1;
+    opacity: 0.02;
+}
+
+.card-back:hover::after {
+    opacity: 0.1; /* Show the background image on hover */
+}
+
+
+.wid-imp{
+    width: 60% !important;
+}
+.card-titel{
+    font-size: 2.1333333333333rem;
+    font-family: 'Noto Sans',sans-serif;
+    font-weight: 700;
+    line-height: 1.2em;
+
+}
+.card-titel2{
+    font-size: 1.1333333333333rem;
+    line-height: 1.2em;
+    font-weight: 700;
+    font-family: 'Noto Sans',sans-serif;
+}
+.divider-separator2 {
+    width: 10px;
+    margin-top: 20px;
+    margin-left: 0;
+    border-top: 5px solid #fff;
+
+}
+.main-h{
+    height: 150px;
+}
+.card-back-blank {
+    width: 28.1%;
+    padding: 40px;
+    position: relative;
+    overflow: hidden;
+}
