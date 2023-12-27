@@ -80,7 +80,7 @@ header{
 
 
 .main-con{
-    margin-top: -220px;
+    margin-top: -10%;
 }
 .rl-border{
     border-right: 1px solid #fff;
@@ -217,4 +217,35 @@ font-size: 1.1333333333333rem;
 .main-h3{
     height: 70px;
     overflow: hidden;
+}
+.main-h4{
+    height: auto;
+    overflow: hidden;
+}
+.imagesection{
+    padding: 0 !important;
+}
+
+.full-l2{
+    width: 56.2% !important;
+}
+.let-card-up{
+    font-size: 0.86666666666667rem;
+    line-height: 1.25em;
+    font-family: 'Noto Sans',sans-serif;
+    font-weight: 700;
+}
+.let-card-up2{
+    font-size: 1.6666666666667rem;
+    line-height: 1.2em;
+    font-family: 'Noto Sans',sans-serif;
+    font-weight: 700;
+
+}
+.let-card-up{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    font-size: 1rem;
+    line-height: 1.6em;
 }
