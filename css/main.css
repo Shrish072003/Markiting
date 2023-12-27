@@ -272,3 +272,33 @@ font-size: 1.1333333333333rem;
 .main-tit3 span{
     margin-top: -10px !important;
 }
+.main-h7{
+    height: auto;
+}
+.inmiddle-text{
+    position: absolute;
+    margin-left: 9.5%;
+    font-size: 24px;
+    width: 49%;
+    line-height: 1.2em;
+    font-weight: 700;
+    font-family: 'Noto Sans',sans-serif;
+}
+.inmiddle-text-main{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 26.4%;
+    font-size: 14.4px;
+    width: 33.8%;
+    line-height: 1.8em;
+    font-weight: 600;
+    font-family: 'Noto Sans',sans-serif;
+}
+.inmiddle-text-side{
+    font-size: 2.1333333333333rem;
+    font-family: 'Noto Sans',sans-serif;
+    font-weight: 700;
+    width: 42%;
+
+
+}
