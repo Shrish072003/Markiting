@@ -302,3 +302,23 @@ font-size: 1.1333333333333rem;
 
 
 }
+.main-h9{
+    height: 100%;
+}
+.main-h9 .card-back-blank{
+    padding: 0px !important;
+}
+.footer-info{
+    position: absolute;
+}
+.footer-con{
+    font-size: 1.4rem;
+    line-height: 1.2em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'Noto Sans',sans-serif;
+}
+.rightside-ifno{
+    /* margin-left: 200px; */
+    right: 0;
+}
