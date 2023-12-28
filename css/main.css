@@ -316,6 +316,13 @@ font-size: 1.1333333333333rem;
     position: absolute;
     margin-top: 125px;
 }
+.footer-info2{
+    position: absolute;
+    margin-top: 30px;
+    color: #fff !important;
+    font-size: medium;
+    font-weight: 400 !important;
+}
 .footer-con{
     font-size: 1.4rem;
     line-height: 1.2em;
@@ -344,7 +351,9 @@ font-size: 1.1333333333333rem;
     margin-top: 2.5rem;
 }
 
-
+.main-h10{
+    height: 450px;
+}
 
 
 
@@ -398,6 +407,9 @@ font-size: 1.1333333333333rem;
     max-height: 100%;
     min-height: 80%;
     overflow: hidden;
+}
+.background-image-sec{
+    height: 112vh;
 }
  }
  .w-45{
