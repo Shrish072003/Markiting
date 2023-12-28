@@ -32,6 +32,8 @@ header{
     flex-direction: column;
     align-items: center;
     height: 90vh;
+    background-position-x: center;
+
 }
 .divider-separator {
     width: 100px;
@@ -84,26 +86,32 @@ header{
 .main-con{
     margin-top: -10%;
 }
-.rl-border{
-    border-right: 1px solid #fff;
-    border-left: 1px solid #fff;
-}
-.r-border{
-    border-right: 1px solid #fff;
-}
-.l-border{
-    border-left: 1px solid #fff;
-}
-.mtb-border{
-    border-top: 1px solid #fff;
-    border-bottom: 1px solid #fff;
-}
-.mt-border{
-    border-top: 1px solid #fff;
-}
-.mb-border{
-    border-bottom: 1px solid #fff;
-}
+.rl-border {
+    border-right: 0.1px solid rgba(122, 122, 122, 0.5);
+    border-left: 0.1px solid rgba(122, 122, 122, 0.5);
+  }
+  
+  .r-border {
+    border-right: 0.1px solid rgba(122, 122, 122, 0.5);
+  }
+  
+  .l-border {
+    border-left: 0.1px solid rgba(122, 122, 122, 0.5);
+  }
+  
+  .mtb-border {
+    border-top: 0.1px solid rgba(122, 122, 122, 0.5);
+    border-bottom: 0.1px solid rgba(122, 122, 122, 0.5);
+  }
+  
+  .mt-border {
+    border-top: 0.1px solid rgba(122, 122, 122, 0.5);
+  }
+  
+  .mb-border {
+    border-bottom: 0.1px solid rgba(122, 122, 122, 0.5);
+  }
+  
 
 
 
@@ -154,268 +162,3 @@ font-size: 1.1333333333333rem;
 .card-back:hover::after {
     opacity: 0.1; /* Show the background image on hover */
 }
-
-
-.wid-imp{
-    min-width: 60% !important;
-    max-width: 75%;
-    width: 75%;
-}
-.card-titel{
-    font-size: 2.1333333333333rem;
-    font-family: 'Noto Sans',sans-serif;
-    font-weight: 700;
-    line-height: 1.2em;
-
-}
-.card-titel2{
-    font-size: 1.1333333333333rem;
-    line-height: 1.2em;
-    font-weight: 700;
-    font-family: 'Noto Sans',sans-serif;
-}
-.divider-separator2 {
-    width: 10px;
-    margin-top: 20px;
-    margin-left: 0;
-    border-top: 5px solid #fff;
-
-}
-.main-h{
-    height: 150px;
-}
-.card-back-blank {
-    width: 28.1%;
-    padding: 40px;
-    position: relative;
-    overflow: hidden;
-}
-.full-l{
-    width: 56.4% !important;
-}
-.main-tit2{
-    font-size: 6rem;
-    font-family: 'Noto Sans',sans-serif;
-    font-weight: 700;
-    margin-top: -15px;
-    padding: 1px 0px 0px 0px !important;
-}
-.buttonsection{
-    display: flex;
-    justify-content: end;
-    padding: 30px 0px 30px 40px !important;
-    display: flex;
-    align-items: center;
-}
-.buttonback{
-    background-color: var(--pink);
-    padding: 25px;
-    color: #fff;
-}
-.buttonback:hover {
-    background-color: #fff;
-    color: #c3317d;
-}
-.main-h2{
-    height: 125px;
-}
-.main-h3{
-    height: 70px;
-    overflow: hidden;
-}
-.main-h4{
-    height: auto;
-    overflow: hidden;
-}
-.imagesection{
-    padding: 0 !important;
-}
-
-.full-l2{
-    width: 56.2% !important;
-}
-.let-card-up{
-    font-size: 0.86666666666667rem;
-    line-height: 1.25em;
-    font-family: 'Noto Sans',sans-serif;
-    font-weight: 700;
-}
-.let-card-up2{
-    font-size: 1.6666666666667rem;
-    line-height: 1.2em;
-    font-family: 'Noto Sans',sans-serif;
-    font-weight: 700;
-
-}
-.let-card-up{
-    font-family: 'Roboto',sans-serif;
-    font-weight: 400;
-    font-size: 15px;
-    font-size: 1rem;
-    line-height: 1.6em;
-}
-.image-coll img {
-    opacity: 0.5; 
-    transition: opacity 0.6s ease; 
-}
-
-.image-coll img:hover {
-    opacity: 100;
-    transition: opacity 0.6s ease; 
-}
-.clas-uk{
-    width: 80%;
-    height: 100%;
-}
-.main-tit3{
-    font-size: 6rem;
-    font-family: 'Noto Sans',sans-serif;
-    font-weight: 700;
-    padding: 1px 0px 0px 0px !important;
-}
-.main-tit3 span{
-    margin-top: -10px !important;
-}
-.main-h7{
-    height: auto;
-}
-.inmiddle-text{
-    position: absolute;
-    margin-left: 9.5%;
-    font-size: 24px;
-    width: 49%;
-    line-height: 1.2em;
-    font-weight: 700;
-    font-family: 'Noto Sans',sans-serif;
-}
-.inmiddle-text-main{
-    position: absolute;
-    margin-top: 100px;
-    margin-left: 26.4%;
-    font-size: 14.4px;
-    width: 33.8%;
-    line-height: 1.8em;
-    font-weight: 600;
-    font-family: 'Noto Sans',sans-serif;
-}
-.inmiddle-text-side{
-    font-size: 2.1333333333333rem;
-    font-family: 'Noto Sans',sans-serif;
-    font-weight: 700;
-    width: 42%;
-
-
-}
-.main-h9{
-    height: 100%;
-}
-.main-h9 .card-back-blank{
-    padding: 0px !important;
-}
-.footer-info{
-    position: absolute;
-    margin-top: 125px;
-}
-.footer-info2{
-    position: absolute;
-    margin-top: 30px;
-    color: #fff !important;
-    font-size: medium;
-    font-weight: 400 !important;
-}
-.footer-con{
-    font-size: 1.4rem;
-    line-height: 1.2em;
-    font-weight: 700;
-    margin-bottom: 20px;
-    font-family: 'Noto Sans',sans-serif;
-}
-.rightside-ifno{
-    margin-left: -90px;
-    z-index: 2;
-    /* display: inline; */
-    position: sticky;
-    /* right: 0;
-
-    /* right: 0; */
-}
-.dfsnkdlkn{
-    overflow: inherit !important;
-}
-.lastfooter-text{
-    font-family: 'Roboto',sans-serif;
-    font-weight: 700;
-    font-size: 1.9rem !important;
-    line-height: 0.65em;
-    margin-left: -90px;
-    margin-top: 2.5rem;
-}
-
-.main-h10{
-    height: 450px;
-}
-
-
-
-
-
-
-
-
-@media only screen and (min-width: 1080px) and (max-width: 1536px) {
-    .inmiddle-text-main {
-    position: absolute;
-    margin-top: 100px;
-    margin-left: 33%;
-    font-size: 14.4px;
-    width: 40%;
-    line-height: 1.8em;
-    font-weight: 600;
-    font-family: 'Noto Sans',sans-serif;
-} 
-.inmiddle-text {
-    position: absolute;
-    margin-left: 12%;
-    font-size: 24px;
-    width: 60%;
-    line-height: 1.2em;
-    font-weight: 700;
-    font-family: 'Noto Sans',sans-serif;
-}
-.main-h4 .full-l2{
- padding: 10px 40px 10px 40px !important;
-}
-.main-h4 .imagesection{
-    height: 18rem;
-}
-/* .inssideimage{
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
-.inssideimage img{
-    width: 100%;
-    height: 90%;
-    object-fit: cover;
-} */
-
-
-.main-h9 .card-back-blank{
-    max-width: 33.3%;
-    width: 33.3%;
-    min-width: 30.25%;
-    max-height: 100%;
-    min-height: 80%;
-    overflow: hidden;
-}
-.background-image-sec{
-    height: 112vh;
-}
- }
- .w-45{
-    width: 45% !important;
-    overflow: hidden;
- }
- .w-55{
-    width: 55% !important;
- }
